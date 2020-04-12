@@ -4,7 +4,7 @@ from random import randint
 #n-dimensional slot machine in python, with adjustable win probability. n>=3
 #core idea being that the input is a number, and you generate as many random numbers as
 #the input number, if all are equal, the player wins otherwise he loses. But the random number
-#generator in py would almost never give 3 or more identical numbers  in a row 
+#generator in py would almost never give 3 or more identical numbers in a row 
 #so it is required to treat a difference of let's say 2 to be considered as equality
 
 #function to generate a list of size num with each element being a 
