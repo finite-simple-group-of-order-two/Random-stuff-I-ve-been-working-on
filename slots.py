@@ -12,7 +12,7 @@ from random import randint
 def slots(num): 
     a=list(range(0,num))
     for x in range(0, num):
-        a[x]=randint(0,10)
+        a[x]=randint(0,9)
     return a
 
 #function to determine whether the player won or not, z is the size of slot machine
@@ -38,5 +38,5 @@ def winalg(z):
     else:
         print("\no no u lost better luck next time")
 
-winalg(4)                                   #calling the primary function, replace 3 with how big you'd like your slot machine
+winalg(3)                                   #calling the primary function, replace 3 with how big you'd like your slot machine
 #this is a comment
