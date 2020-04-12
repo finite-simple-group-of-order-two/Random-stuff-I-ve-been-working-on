@@ -1,3 +1,5 @@
+#functional but looks bad i'll fix it sometime idk
+
 def munchausen(num):
     a=str(num)
     omega=0
