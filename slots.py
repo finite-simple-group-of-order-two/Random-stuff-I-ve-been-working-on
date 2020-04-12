@@ -39,3 +39,4 @@ def winalg(z):
         print("\no no u lost better luck next time")
 
 winalg(4)                                   #calling the primary function, replace 3 with how big you'd like your slot machine
+#this is a comment
