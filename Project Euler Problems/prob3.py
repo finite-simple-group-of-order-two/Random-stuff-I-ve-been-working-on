@@ -1,3 +1,6 @@
+#This file has been scrubbed, view v1.1 for a code more functional
+#for large numbers
+
 #Finds the largest prime factor of a number
 from math import sqrt
 
