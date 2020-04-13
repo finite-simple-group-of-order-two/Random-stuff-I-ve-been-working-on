@@ -1,4 +1,4 @@
-#finidng sum of even terms in fibonacci series
+#finidng sum of even terms in fibonacci series that are less than or 4 million
 
 def fibonacci_even_sum():
     i=1
