@@ -33,3 +33,5 @@ def pattern2():
             num+=1
         print("")
         i+=1
+
+#Pattern 3
