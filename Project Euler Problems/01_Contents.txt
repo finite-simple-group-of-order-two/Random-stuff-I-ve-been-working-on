@@ -1,0 +1,16 @@
+Here I dump what prob1, prob2, prob3 etc are about
+
+prob1.py:
+Program to find numbers under 100 that are divisible by either 3 or 5
+
+prob2.py:
+Program to find sum of even terms in a Fibonacci series that are less
+than or equal to 4 million
+
+prob3.py:
+Intended objective: Find greatest prime factor of a very large number
+Result: Scrubbed because algorithm took too long for decently large numbers
+
+prob3_1.1.py
+Program to find greatest prime factor of a very large number, accomplished using
+sympy package.
