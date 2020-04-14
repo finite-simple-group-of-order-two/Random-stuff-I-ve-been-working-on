@@ -14,3 +14,6 @@ Result: Scrubbed because algorithm took too long for decently large numbers
 prob3_1.1.py
 Program to find greatest prime factor of a very large number, accomplished using
 sympy package.
+
+prob4.py
+Program to find out largest palindrome number that is a product of two 3-digit numbers
