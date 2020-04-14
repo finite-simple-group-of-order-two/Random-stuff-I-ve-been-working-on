@@ -17,3 +17,6 @@ sympy package.
 
 prob4.py
 Program to find out largest palindrome number that is a product of two 3-digit numbers
+
+prob4_generalised.py
+Generalises prob4.py to n-digit numbers
