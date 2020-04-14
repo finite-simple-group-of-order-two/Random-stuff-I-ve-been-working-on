@@ -41,7 +41,7 @@ def factors(n):
 #function that takes in a list, which is usually the list of factors
 #and returns a list with only those elements from input list that are n 
 #digit numbers
-def filter_3digit_factors(faclist):
+def filter_ndigit_factors(faclist):
     filtered_list=[]
     for i in faclist:
         if len(str(i))==digits:
@@ -50,12 +50,12 @@ def filter_3digit_factors(faclist):
 
 #boolean function to check if a number is the product of two n-digit numbers
 #basically, gets the factors of input number, filters out the n-digit factors and
-#divides the n digit factors by the input number, one by one
+#divides the input number by the n-digit factors, one by one
 #if the quotient is n-digit as well, means the number is a product of two 
 #n-digit numbers
-def triple_dig_prod(num):
+def n_dig_prod(num):
     result = False
-    for i in filter_3digit_factors(factors(num)):
+    for i in filter_ndigit_factors(factors(num)):
         if len(str(ceil(num/i)))==digits:
             result=True
             break
@@ -65,11 +65,13 @@ def triple_dig_prod(num):
 #is a product of two n-digit numbers, in the Main() function
 def Main():
     global loopnum
+    global digits
     while True:
-        if checkpalindrome(loopnum)==True and triple_dig_prod(loopnum)==True:
-            print("The largest palindrome number that is a product of two  "+str(digits)+"-digit numbers is "+str(loopnum))
-            break
-        loopnum-=1 #variable was declared before the triple_dig_prod() function 
+        if checkpalindrome(loopnum)==True:
+            if n_dig_prod(loopnum)==True:
+                print("The largest palindrome number that is a product of two "+str(digits)+"-digit numbers is "+str(loopnum))
+                break
+        loopnum-=1 
 Main()
 print("Computation time : "+str(time.time()-start) + " seconds")
 
