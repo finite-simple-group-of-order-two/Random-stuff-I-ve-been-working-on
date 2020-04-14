@@ -22,7 +22,7 @@ def largnumgen(zee):
     loopnum=pow(int(tong),2)
     digits = zee
 
-largnumgen(4) #replace 3 with n
+largnumgen(4) #replace 4 with n
 
 
 #Boolean function to check if a number is palindrome
