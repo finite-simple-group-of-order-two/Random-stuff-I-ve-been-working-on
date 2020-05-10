@@ -20,3 +20,9 @@ Program to find out largest palindrome number that is a product of two 3-digit n
 
 prob4_generalised.py
 Generalises prob4.py to n-digit numbers
+
+prob6.py
+Finds difference between sum of squares and squares of sum of first 100 natural numbers
+
+prob7.py
+Finds 10,001th prime number
